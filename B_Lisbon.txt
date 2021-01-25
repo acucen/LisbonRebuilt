@@ -1,0 +1,16 @@
+B.
+
+In order to accomplish our aim, we collect data on Collectivities and on Venues in Lisbon.
+
+1. Collectivities. 
+
+For simplicity, we restrict our dataset to the Collectivities registered in ACCL (Associação de Colectividades do Concelho de Lisboa - Association of Colectivities of the Lisbon Council) [http://www.accl.com.pt/], which sum up to 274. From this association website we collect a list containing the name of the registered Collectivity and its foundation date. Moreover, we add to this dataset a new column with the parish where the Collectivity is located. 
+
+We furthermore use a second data set with information about all the parishes (freguesias) in Lisbon, namely the number of its inhabitants, area, and geographic coordinates of the parish government office. This information can be found in wikipedia [https://pt.wikipedia.org/wiki/Lista_de_freguesias_de_Lisboa] and in the website of the city government [https://www.lisboa.pt/municipio/freguesias#c7461].  
+
+
+2. Venues
+
+In order to find the venues within each parish of Lisbon, we collect data from Foursquare [https://foursquare.com/], and we use as locators the coordinates of each parish government office.
+
+
