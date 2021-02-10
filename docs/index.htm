@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_bd62d2aa1bac452eaa5af51548f498c0 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_bd62d2aa1bac452eaa5af51548f498c0" ></div>
+        
+</body>
+<script>    
+    
+            var map_bd62d2aa1bac452eaa5af51548f498c0 = L.map(
+                "map_bd62d2aa1bac452eaa5af51548f498c0",
+                {
+                    center: [38.7077507, -9.1365919],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ad7ca1042fd84972943e2f29b6a27530 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_bd62d2aa1bac452eaa5af51548f498c0);
+        
+    
+            var circle_marker_45250f5c0c984e909033a770a26ceeed = L.circleMarker(
+                [38.70578055555556, -9.201325],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bd62d2aa1bac452eaa5af51548f498c0);
+        
+    
+        var popup_82795e28c9d141518063abbb4b3e9a8f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_10cd7f5e449440588dbdb93c6dff268f = $(`<div id="html_10cd7f5e449440588dbdb93c6dff268f" style="width: 100.0%; height: 100.0%;"> Ajuda Cluster 1</div>`)[0];
+            popup_82795e28c9d141518063abbb4b3e9a8f.setContent(html_10cd7f5e449440588dbdb93c6dff268f);
+        
+
+        circle_marker_45250f5c0c984e909033a770a26ceeed.bindPopup(popup_82795e28c9d141518063abbb4b3e9a8f)
+        ;
+
+        
+    
+    
+            var circle_marker_1460011042004b269d2ee908e5f20011 = L.circleMarker(
+                [38.704844444444454, -9.179877777777778],
+                {"bubblingMouseEvents": true, "color": "#80ffb4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#80ffb4", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bd62d2aa1bac452eaa5af51548f498c0);
+        
+    
+        var popup_aaf93d65fcdb45d4954d79b0ac2254a1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6c77c1f2d06b4a5f8745fc30737c52e9 = $(`<div id="html_6c77c1f2d06b4a5f8745fc30737c52e9" style="width: 100.0%; height: 100.0%;"> Alcântra Cluster 4</div>`)[0];
+            popup_aaf93d65fcdb45d4954d79b0ac2254a1.setContent(html_6c77c1f2d06b4a5f8745fc30737c52e9);
+        
+
+        circle_marker_1460011042004b269d2ee908e5f20011.bindPopup(popup_aaf93d65fcdb45d4954d79b0ac2254a1)
+        ;
+
+        
+    
+    
+            var circle_marker_b703450dd1cc42ea846180044cc39256 = L.circleMarker(
+                [38.74691388888889, -9.140536111111109],
+                {"bubblingMouseEvents": true, "color": "#80ffb4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#80ffb4", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bd62d2aa1bac452eaa5af51548f498c0);
+        
+    
+        var popup_ab83e36e591545d5ab3e6a08d707f999 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_652fb647f9e74ec9b9ff47aaa82a79e7 = $(`<div id="html_652fb647f9e74ec9b9ff47aaa82a79e7" style="width: 100.0%; height: 100.0%;"> Alvalade Cluster 4</div>`)[0];
+            popup_ab83e36e591545d5ab3e6a08d707f999.setContent(html_652fb647f9e74ec9b9ff47aaa82a79e7);
+        
+
+        circle_marker_b703450dd1cc42ea846180044cc39256.bindPopup(popup_ab83e36e591545d5ab3e6a08d707f999)
+        ;
+
+        
+    
+    
+            var circle_marker_8fce9118907a4036a17e58aabae18c34 = L.circleMarker(
+                [38.74511944444445, -9.142652777777778],
+                {"bubblingMouseEvents": true, "color": "#80ffb4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#80ffb4", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bd62d2aa1bac452eaa5af51548f498c0);
+        
+    
+        var popup_7c495929c20246e7b6b24b2107df2563 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e552517c398a404586b267be403ae27c = $(`<div id="html_e552517c398a404586b267be403ae27c" style="width: 100.0%; height: 100.0%;"> Areeiro Cluster 4</div>`)[0];
+            popup_7c495929c20246e7b6b24b2107df2563.setContent(html_e552517c398a404586b267be403ae27c);
+        
+
+        circle_marker_8fce9118907a4036a17e58aabae18c34.bindPopup(popup_7c495929c20246e7b6b24b2107df2563)
+        ;
+
+        
+    
+    
+            var circle_marker_44f688765f54484faf7cf835f1dfa0c1 = L.circleMarker(
+                [38.721008333333344, -9.134658333333332],
+                {"bubblingMouseEvents": true, "color": "#2c7ef7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2c7ef7", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bd62d2aa1bac452eaa5af51548f498c0);
+        
+    
+        var popup_c7ce731c21d449aaabd07c0fe5090955 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5be2c51f27eb44778c1d305fa4872f2e = $(`<div id="html_5be2c51f27eb44778c1d305fa4872f2e" style="width: 100.0%; height: 100.0%;"> Arroios Cluster 2</div>`)[0];
+            popup_c7ce731c21d449aaabd07c0fe5090955.setContent(html_5be2c51f27eb44778c1d305fa4872f2e);
+        
+
+        circle_marker_44f688765f54484faf7cf835f1dfa0c1.bindPopup(popup_c7ce731c21d449aaabd07c0fe5090955)
+        ;
+
+        
+    
+    
+            var circle_marker_42fc0e9374cd441ba9aae12ead6d49eb = L.circleMarker(
+                [38.74109166666667, -9.149338888888888],
+                {"bubblingMouseEvents": true, "color": "#80ffb4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#80ffb4", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bd62d2aa1bac452eaa5af51548f498c0);
+        
+    
+        var popup_fc22ee9fa6144e8a982a3347e569808a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_725255433b01473598498fbf117221ee = $(`<div id="html_725255433b01473598498fbf117221ee" style="width: 100.0%; height: 100.0%;"> Avenidas Novas Cluster 4</div>`)[0];
+            popup_fc22ee9fa6144e8a982a3347e569808a.setContent(html_725255433b01473598498fbf117221ee);
+        
+
+        circle_marker_42fc0e9374cd441ba9aae12ead6d49eb.bindPopup(popup_fc22ee9fa6144e8a982a3347e569808a)
+        ;
+
+        
+    
+    
+            var circle_marker_ef2507e865de4cfea80c019187e89db1 = L.circleMarker(
+                [38.72591388888889, -9.112344444444442],
+                {"bubblingMouseEvents": true, "color": "#2adddd", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2adddd", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bd62d2aa1bac452eaa5af51548f498c0);
+        
+    
+        var popup_c3bd6169e8f6445ebb63a47cea7ba37d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4719c98b8c2f4027bd84b38210c61417 = $(`<div id="html_4719c98b8c2f4027bd84b38210c61417" style="width: 100.0%; height: 100.0%;"> Beato Cluster 3</div>`)[0];
+            popup_c3bd6169e8f6445ebb63a47cea7ba37d.setContent(html_4719c98b8c2f4027bd84b38210c61417);
+        
+
+        circle_marker_ef2507e865de4cfea80c019187e89db1.bindPopup(popup_c3bd6169e8f6445ebb63a47cea7ba37d)
+        ;
+
+        
+    
+    
+            var circle_marker_bd10d369c7d84b138fa4810870329fc4 = L.circleMarker(
+                [38.69818611111111, -9.20676111111111],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bd62d2aa1bac452eaa5af51548f498c0);
+        
+    
+        var popup_1637c82ab219451394417d3038d9c841 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_103a09ed77f142aa8ecc12941ece2785 = $(`<div id="html_103a09ed77f142aa8ecc12941ece2785" style="width: 100.0%; height: 100.0%;"> Belém Cluster 1</div>`)[0];
+            popup_1637c82ab219451394417d3038d9c841.setContent(html_103a09ed77f142aa8ecc12941ece2785);
+        
+
+        circle_marker_bd10d369c7d84b138fa4810870329fc4.bindPopup(popup_1637c82ab219451394417d3038d9c841)
+        ;
+
+        
+    
+    
+            var circle_marker_65ae594cc8d54f45b9cd1ebe681e51e6 = L.circleMarker(
+                [38.748372222222216, -9.199630555555556],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bd62d2aa1bac452eaa5af51548f498c0);
+        
+    
+        var popup_d898ab98726245a89cf20cab46911606 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_19485c911cf4485db0bc3869e3aadeec = $(`<div id="html_19485c911cf4485db0bc3869e3aadeec" style="width: 100.0%; height: 100.0%;"> Benfica Cluster 1</div>`)[0];
+            popup_d898ab98726245a89cf20cab46911606.setContent(html_19485c911cf4485db0bc3869e3aadeec);
+        
+
+        circle_marker_65ae594cc8d54f45b9cd1ebe681e51e6.bindPopup(popup_d898ab98726245a89cf20cab46911606)
+        ;
+
+        
+    
+    
+            var circle_marker_b9b0bf9ea673464fa1a484a687380fdf = L.circleMarker(
+                [38.715488888888885, -9.168933333333333],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bd62d2aa1bac452eaa5af51548f498c0);
+        
+    
+        var popup_370231e8e44c416ea840d00c67919fc5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_770422727b414bf78baef71e7824246c = $(`<div id="html_770422727b414bf78baef71e7824246c" style="width: 100.0%; height: 100.0%;"> Campo de Ourique Cluster 0</div>`)[0];
+            popup_370231e8e44c416ea840d00c67919fc5.setContent(html_770422727b414bf78baef71e7824246c);
+        
+
+        circle_marker_b9b0bf9ea673464fa1a484a687380fdf.bindPopup(popup_370231e8e44c416ea840d00c67919fc5)
+        ;
+
+        
+    
+    
+            var circle_marker_fd5b9bedeec2483099e236f099350053 = L.circleMarker(
+                [38.72594444444445, -9.164425],
+                {"bubblingMouseEvents": true, "color": "#80ffb4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#80ffb4", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bd62d2aa1bac452eaa5af51548f498c0);
+        
+    
+        var popup_973939a7cb4d40519f215c0d7e51c9c8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d5b9dbafe71a4711a687503a0361c8ea = $(`<div id="html_d5b9dbafe71a4711a687503a0361c8ea" style="width: 100.0%; height: 100.0%;"> Campolide Cluster 4</div>`)[0];
+            popup_973939a7cb4d40519f215c0d7e51c9c8.setContent(html_d5b9dbafe71a4711a687503a0361c8ea);
+        
+
+        circle_marker_fd5b9bedeec2483099e236f099350053.bindPopup(popup_973939a7cb4d40519f215c0d7e51c9c8)
+        ;
+
+        
+    
+    
+            var circle_marker_7336c237f07949a6ba636b2fdb4ac179 = L.circleMarker(
+                [38.759677777777775, -9.187766666666667],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bd62d2aa1bac452eaa5af51548f498c0);
+        
+    
+        var popup_0da8362a47a44b59ab03b8e43a5eae9a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cc6ad46171564dffb4f460815486a66a = $(`<div id="html_cc6ad46171564dffb4f460815486a66a" style="width: 100.0%; height: 100.0%;"> Carnide Cluster 1</div>`)[0];
+            popup_0da8362a47a44b59ab03b8e43a5eae9a.setContent(html_cc6ad46171564dffb4f460815486a66a);
+        
+
+        circle_marker_7336c237f07949a6ba636b2fdb4ac179.bindPopup(popup_0da8362a47a44b59ab03b8e43a5eae9a)
+        ;
+
+        
+    
+    
+            var circle_marker_78fdcdaf9ee44f16b234d9b8b96f91f0 = L.circleMarker(
+                [38.71091666666667, -9.159883333333333],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bd62d2aa1bac452eaa5af51548f498c0);
+        
+    
+        var popup_59511d24416545b5b00f57585c6c8218 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a154ec51ace04a02ac79aa1e9baa1b7a = $(`<div id="html_a154ec51ace04a02ac79aa1e9baa1b7a" style="width: 100.0%; height: 100.0%;"> Estrela Cluster 0</div>`)[0];
+            popup_59511d24416545b5b00f57585c6c8218.setContent(html_a154ec51ace04a02ac79aa1e9baa1b7a);
+        
+
+        circle_marker_78fdcdaf9ee44f16b234d9b8b96f91f0.bindPopup(popup_59511d24416545b5b00f57585c6c8218)
+        ;
+
+        
+    
+    
+            var circle_marker_12a667caa3634d1494c0e800705ae354 = L.circleMarker(
+                [38.76771944444445, -9.160183333333334],
+                {"bubblingMouseEvents": true, "color": "#ff7e41", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7e41", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bd62d2aa1bac452eaa5af51548f498c0);
+        
+    
+        var popup_d1531094d9ea42039f78a2ec6037d697 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8d4d23b7dc934a33ad0dfdc66bfaf261 = $(`<div id="html_8d4d23b7dc934a33ad0dfdc66bfaf261" style="width: 100.0%; height: 100.0%;"> Lumiar Cluster 6</div>`)[0];
+            popup_d1531094d9ea42039f78a2ec6037d697.setContent(html_8d4d23b7dc934a33ad0dfdc66bfaf261);
+        
+
+        circle_marker_12a667caa3634d1494c0e800705ae354.bindPopup(popup_d1531094d9ea42039f78a2ec6037d697)
+        ;
+
+        
+    
+    
+            var circle_marker_8197bf9ab8e04844a5a9ba0484984cdf = L.circleMarker(
+                [38.746872222222215, -9.110358333333332],
+                {"bubblingMouseEvents": true, "color": "#80ffb4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#80ffb4", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bd62d2aa1bac452eaa5af51548f498c0);
+        
+    
+        var popup_58a0b6ce7313474e94f184ee4bd4aadc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4cf87376d89249a3abf64e8e56e0d571 = $(`<div id="html_4cf87376d89249a3abf64e8e56e0d571" style="width: 100.0%; height: 100.0%;"> Marvila Cluster 4</div>`)[0];
+            popup_58a0b6ce7313474e94f184ee4bd4aadc.setContent(html_4cf87376d89249a3abf64e8e56e0d571);
+        
+
+        circle_marker_8197bf9ab8e04844a5a9ba0484984cdf.bindPopup(popup_58a0b6ce7313474e94f184ee4bd4aadc)
+        ;
+
+        
+    
+    
+            var circle_marker_67241229e15546ac90f8e42ac9c24e28 = L.circleMarker(
+                [38.71114444444445, -9.151347222222222],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bd62d2aa1bac452eaa5af51548f498c0);
+        
+    
+        var popup_470a7a5b3ddd4db595eb228016073591 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_38590f1d37c04cd3b34963a0e1db4008 = $(`<div id="html_38590f1d37c04cd3b34963a0e1db4008" style="width: 100.0%; height: 100.0%;"> Misericórdia Cluster 0</div>`)[0];
+            popup_470a7a5b3ddd4db595eb228016073591.setContent(html_38590f1d37c04cd3b34963a0e1db4008);
+        
+
+        circle_marker_67241229e15546ac90f8e42ac9c24e28.bindPopup(popup_470a7a5b3ddd4db595eb228016073591)
+        ;
+
+        
+    
+    
+            var circle_marker_05507f6fe21343909211fc0baefc2429 = L.circleMarker(
+                [38.77358888888889, -9.117058333333334],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bd62d2aa1bac452eaa5af51548f498c0);
+        
+    
+        var popup_f2f59e6c6930431ba73bfdd5c9c142dd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3582b03a8aa04a13ad8e88907e5e0f58 = $(`<div id="html_3582b03a8aa04a13ad8e88907e5e0f58" style="width: 100.0%; height: 100.0%;"> Olivais Cluster 1</div>`)[0];
+            popup_f2f59e6c6930431ba73bfdd5c9c142dd.setContent(html_3582b03a8aa04a13ad8e88907e5e0f58);
+        
+
+        circle_marker_05507f6fe21343909211fc0baefc2429.bindPopup(popup_f2f59e6c6930431ba73bfdd5c9c142dd)
+        ;
+
+        
+    
+    
+            var circle_marker_ac198026c08f4f83981c68889242ce07 = L.circleMarker(
+                [38.76146944444445, -9.097666666666667],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bd62d2aa1bac452eaa5af51548f498c0);
+        
+    
+        var popup_ed83208dafc24e76a7d8f496db16f182 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b82187c4f0ee49c2be265bc278f560b3 = $(`<div id="html_b82187c4f0ee49c2be265bc278f560b3" style="width: 100.0%; height: 100.0%;"> Parque das Nações Cluster 1</div>`)[0];
+            popup_ed83208dafc24e76a7d8f496db16f182.setContent(html_b82187c4f0ee49c2be265bc278f560b3);
+        
+
+        circle_marker_ac198026c08f4f83981c68889242ce07.bindPopup(popup_ed83208dafc24e76a7d8f496db16f182)
+        ;
+
+        
+    
+    
+            var circle_marker_ae0c088134eb4f679f8e191af1c652cd = L.circleMarker(
+                [38.730172222222215, -9.130872222222225],
+                {"bubblingMouseEvents": true, "color": "#2c7ef7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2c7ef7", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bd62d2aa1bac452eaa5af51548f498c0);
+        
+    
+        var popup_3e52595b43b54d938570cc9a4598d8a3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6c0175430c834306a79ea26bfd9a86c7 = $(`<div id="html_6c0175430c834306a79ea26bfd9a86c7" style="width: 100.0%; height: 100.0%;"> Penha de França Cluster 2</div>`)[0];
+            popup_3e52595b43b54d938570cc9a4598d8a3.setContent(html_6c0175430c834306a79ea26bfd9a86c7);
+        
+
+        circle_marker_ae0c088134eb4f679f8e191af1c652cd.bindPopup(popup_3e52595b43b54d938570cc9a4598d8a3)
+        ;
+
+        
+    
+    
+            var circle_marker_e049b628657d46d6b6a6b2b800da6df8 = L.circleMarker(
+                [38.78259166666667, -9.161669444444446],
+                {"bubblingMouseEvents": true, "color": "#ff7e41", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7e41", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bd62d2aa1bac452eaa5af51548f498c0);
+        
+    
+        var popup_412fb361ad61442e99b34497f76b04af = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8753fc2e91454d0ea178dd3a7c2531d7 = $(`<div id="html_8753fc2e91454d0ea178dd3a7c2531d7" style="width: 100.0%; height: 100.0%;"> Santa Clara Cluster 6</div>`)[0];
+            popup_412fb361ad61442e99b34497f76b04af.setContent(html_8753fc2e91454d0ea178dd3a7c2531d7);
+        
+
+        circle_marker_e049b628657d46d6b6a6b2b800da6df8.bindPopup(popup_412fb361ad61442e99b34497f76b04af)
+        ;
+
+        
+    
+    
+            var circle_marker_22154d7c53af4137a0d539f44554203f = L.circleMarker(
+                [38.71141666666667, -9.138008333333334],
+                {"bubblingMouseEvents": true, "color": "#2c7ef7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2c7ef7", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bd62d2aa1bac452eaa5af51548f498c0);
+        
+    
+        var popup_8b57f26bcb9c4463a5cb9d3dd2a60b96 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6e119d99fba04f09a7e87bac37a58d1c = $(`<div id="html_6e119d99fba04f09a7e87bac37a58d1c" style="width: 100.0%; height: 100.0%;"> Santa Maria Maior Cluster 2</div>`)[0];
+            popup_8b57f26bcb9c4463a5cb9d3dd2a60b96.setContent(html_6e119d99fba04f09a7e87bac37a58d1c);
+        
+
+        circle_marker_22154d7c53af4137a0d539f44554203f.bindPopup(popup_8b57f26bcb9c4463a5cb9d3dd2a60b96)
+        ;
+
+        
+    
+    
+            var circle_marker_4d8cfae6f1474ea88a95bfa5bbd88d0c = L.circleMarker(
+                [38.721986111111114, -9.153441666666668],
+                {"bubblingMouseEvents": true, "color": "#d4dd80", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d4dd80", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bd62d2aa1bac452eaa5af51548f498c0);
+        
+    
+        var popup_d823cbeb1c8c43b69adeb1373fee9e60 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3e4af540a6fb4b68bba23bdba54110e2 = $(`<div id="html_3e4af540a6fb4b68bba23bdba54110e2" style="width: 100.0%; height: 100.0%;"> Santo António Cluster 5</div>`)[0];
+            popup_d823cbeb1c8c43b69adeb1373fee9e60.setContent(html_3e4af540a6fb4b68bba23bdba54110e2);
+        
+
+        circle_marker_4d8cfae6f1474ea88a95bfa5bbd88d0c.bindPopup(popup_d823cbeb1c8c43b69adeb1373fee9e60)
+        ;
+
+        
+    
+    
+            var circle_marker_1ce79f508e8e47479423cb0cd20ad77a = L.circleMarker(
+                [38.74580277777777, -9.189811111111112],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bd62d2aa1bac452eaa5af51548f498c0);
+        
+    
+        var popup_1a14a3c34b3a4659918d820f38cc6d2f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_07b0cf8ce52248bc902d7da10cb37778 = $(`<div id="html_07b0cf8ce52248bc902d7da10cb37778" style="width: 100.0%; height: 100.0%;"> São Domingos de Benfica Cluster 1</div>`)[0];
+            popup_1a14a3c34b3a4659918d820f38cc6d2f.setContent(html_07b0cf8ce52248bc902d7da10cb37778);
+        
+
+        circle_marker_1ce79f508e8e47479423cb0cd20ad77a.bindPopup(popup_1a14a3c34b3a4659918d820f38cc6d2f)
+        ;
+
+        
+    
+    
+            var circle_marker_c44f09d643754a068b79e4a669321240 = L.circleMarker(
+                [38.719875, -9.13185],
+                {"bubblingMouseEvents": true, "color": "#2c7ef7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2c7ef7", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bd62d2aa1bac452eaa5af51548f498c0);
+        
+    
+        var popup_3f27465655c148bc99d7d543f47ba5c1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_710975cdf1a840348c1e9a72d1ac0324 = $(`<div id="html_710975cdf1a840348c1e9a72d1ac0324" style="width: 100.0%; height: 100.0%;"> São Vicente Cluster 2</div>`)[0];
+            popup_3f27465655c148bc99d7d543f47ba5c1.setContent(html_710975cdf1a840348c1e9a72d1ac0324);
+        
+
+        circle_marker_c44f09d643754a068b79e4a669321240.bindPopup(popup_3f27465655c148bc99d7d543f47ba5c1)
+        ;
+
+        
+    
+</script>
